@@ -1,23 +1,176 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4451" systemVersion="13A461" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4514" systemVersion="12E55" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="jwH-TK-8rQ">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3676"/>
+        <deployment defaultVersion="1536" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
     </dependencies>
     <scenes>
-        <!--class Prefix:identifier View Controller-->
-        <scene sceneID="ufC-wZ-h7g">
+        <!--View Controller - Bản đồ-->
+        <scene sceneID="cpj-OA-ZNQ">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                <viewController id="bOA-Xr-PFQ" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Q72-em-0Mf"/>
+                        <viewControllerLayoutGuide type="bottom" id="LhY-dU-Icd"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="3SK-po-Byd">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" title="Bản đồ" id="o1S-dM-OSN">
+                        <barButtonItem key="rightBarButtonItem" systemItem="search" id="9iW-wP-SI1"/>
+                    </navigationItem>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ALZ-Fd-23o" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="611" y="-730"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="NCk-Fx-6AS">
+            <objects>
+                <tabBarController definesPresentationContext="YES" id="jwH-TK-8rQ" sceneMemberID="viewController">
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="txW-er-bAt">
+                        <rect key="frame" x="129" y="330" width="163" height="49"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="6vJ-q1-cY3" kind="relationship" relationship="viewControllers" id="omX-ok-fVz"/>
+                        <segue destination="696-vf-8Ud" kind="relationship" relationship="viewControllers" id="Isc-WT-50O"/>
+                        <segue destination="Xot-QZ-wTK" kind="relationship" relationship="viewControllers" id="8BW-2B-6yb"/>
+                        <segue destination="ZGq-88-0eU" kind="relationship" relationship="viewControllers" id="RFq-TB-Ig8"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bj4-I3-kVU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-645" y="-31"/>
+        </scene>
+        <!--View Controller - Cập nhật-->
+        <scene sceneID="uDy-TO-r27">
+            <objects>
+                <viewController id="TAT-ZQ-rMu" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="h3s-A3-oqF"/>
+                        <viewControllerLayoutGuide type="bottom" id="AJl-yn-7OZ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="T46-z3-swg">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Cập nhật" id="d5L-pV-yzZ">
+                        <barButtonItem key="rightBarButtonItem" systemItem="search" id="Qbh-JC-o5s"/>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kv6-Ca-TTG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="611" y="-21"/>
+        </scene>
+        <!--Navigation Controller - Bản đồ-->
+        <scene sceneID="pno-6c-kbW">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="6vJ-q1-cY3" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Bản đồ" image="maps.png" id="tWZ-RU-5xv"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="hfm-wd-RKn">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="bOA-Xr-PFQ" kind="relationship" relationship="rootViewController" id="D3U-B6-vVU"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Lay-ZS-bv1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-47" y="-730"/>
+        </scene>
+        <!--Navigation Controller - Cập nhật-->
+        <scene sceneID="jUr-jP-eag">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="696-vf-8Ud" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Cập nhật" image="update.png" id="Mbk-Xy-OZq"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="qt8-Sq-hJq">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="TAT-ZQ-rMu" kind="relationship" relationship="rootViewController" id="ToW-fS-1my"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CAt-g8-dtm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-42" y="-21"/>
+        </scene>
+        <!--View Controller - Radio-->
+        <scene sceneID="MGk-Yl-aLy">
+            <objects>
+                <viewController id="Ldm-QZ-0Yg" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="WTm-uY-3g0"/>
+                        <viewControllerLayoutGuide type="bottom" id="P7q-aB-quv"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="tGP-aH-VgI">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Radio" id="TyY-m1-DW0">
+                        <barButtonItem key="rightBarButtonItem" systemItem="search" id="rxX-I9-yLt"/>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UyQ-M5-8DN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="611" y="681"/>
+        </scene>
+        <!--Navigation Controller - Radio-->
+        <scene sceneID="cEQ-fw-eKX">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Xot-QZ-wTK" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Radio" image="radio.png" id="yOU-ih-0cV"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="3rY-I9-Dts">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Ldm-QZ-0Yg" kind="relationship" relationship="rootViewController" id="d6p-DA-l0P"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="i8E-6J-zUC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-47" y="689"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="ujv-3a-EPy">
+            <objects>
+                <viewController id="ZGq-88-0eU" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Nu7-Ea-TJt"/>
+                        <viewControllerLayoutGuide type="bottom" id="bQ8-LV-FrF"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="SPf-0X-QV4">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" systemItem="more" id="sBh-2u-alm"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Mpd-nf-wQT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-44" y="1387"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="maps.png" width="32" height="32"/>
+        <image name="radio.png" width="32" height="32"/>
+        <image name="update.png" width="40" height="32"/>
+    </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
