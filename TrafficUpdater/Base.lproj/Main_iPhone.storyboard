@@ -5,10 +5,10 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
     </dependencies>
     <scenes>
-        <!--View Controller - Bản đồ-->
+        <!--Maps View Controller - Bản đồ-->
         <scene sceneID="cpj-OA-ZNQ">
             <objects>
-                <viewController id="bOA-Xr-PFQ" sceneMemberID="viewController">
+                <viewController id="bOA-Xr-PFQ" customClass="MapsViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Q72-em-0Mf"/>
                         <viewControllerLayoutGuide type="bottom" id="LhY-dU-Icd"/>
@@ -19,7 +19,11 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" title="Bản đồ" id="o1S-dM-OSN">
-                        <barButtonItem key="rightBarButtonItem" systemItem="search" id="9iW-wP-SI1"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="search" id="9iW-wP-SI1">
+                            <connections>
+                                <action selector="showSearchBar:" destination="bOA-Xr-PFQ" id="MG8-jf-dGC"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ALZ-Fd-23o" userLabel="First Responder" sceneMemberID="firstResponder"/>

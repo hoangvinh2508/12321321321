@@ -7,6 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		126FE06718B1C43C0017AD06 /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 126FE06618B1C43C0017AD06 /* GoogleMaps.framework */; };
+		126FE06918B1C4AE0017AD06 /* GoogleMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 126FE06818B1C4AE0017AD06 /* GoogleMaps.bundle */; };
+		126FE06B18B1C5010017AD06 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 126FE06A18B1C5010017AD06 /* AVFoundation.framework */; };
+		126FE06D18B1C5080017AD06 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 126FE06C18B1C5080017AD06 /* CoreData.framework */; };
+		126FE07318B1C5430017AD06 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 126FE06E18B1C5430017AD06 /* CoreLocation.framework */; };
+		126FE07418B1C5430017AD06 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 126FE06F18B1C5430017AD06 /* CoreText.framework */; };
+		126FE07518B1C5430017AD06 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 126FE07018B1C5430017AD06 /* GLKit.framework */; };
+		126FE07618B1C5430017AD06 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 126FE07118B1C5430017AD06 /* ImageIO.framework */; };
+		126FE07718B1C5430017AD06 /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 126FE07218B1C5430017AD06 /* libc++.dylib */; };
+		126FE07D18B1C5830017AD06 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 126FE07818B1C5830017AD06 /* libicucore.dylib */; };
+		126FE07E18B1C5830017AD06 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 126FE07918B1C5830017AD06 /* libz.dylib */; };
+		126FE07F18B1C5830017AD06 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 126FE07A18B1C5830017AD06 /* OpenGLES.framework */; };
+		126FE08018B1C5830017AD06 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 126FE07B18B1C5830017AD06 /* QuartzCore.framework */; };
+		126FE08118B1C5830017AD06 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 126FE07C18B1C5830017AD06 /* SystemConfiguration.framework */; };
 		12807A7F18B10F13007DE648 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12807A7E18B10F13007DE648 /* Foundation.framework */; };
 		12807A8118B10F13007DE648 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12807A8018B10F13007DE648 /* CoreGraphics.framework */; };
 		12807A8318B10F13007DE648 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12807A8218B10F13007DE648 /* UIKit.framework */; };
@@ -22,6 +36,10 @@
 		12807AA318B10F14007DE648 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12807A8218B10F13007DE648 /* UIKit.framework */; };
 		12807AAB18B10F14007DE648 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 12807AA918B10F14007DE648 /* InfoPlist.strings */; };
 		12807AAD18B10F14007DE648 /* TrafficUpdaterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 12807AAC18B10F14007DE648 /* TrafficUpdaterTests.m */; };
+		12F84FCF18B1189500922CE2 /* maps.png in Resources */ = {isa = PBXBuildFile; fileRef = 12F84FCE18B1189500922CE2 /* maps.png */; };
+		12F84FD118B1197A00922CE2 /* update.png in Resources */ = {isa = PBXBuildFile; fileRef = 12F84FD018B1197A00922CE2 /* update.png */; };
+		12F84FD318B11A0A00922CE2 /* radio.png in Resources */ = {isa = PBXBuildFile; fileRef = 12F84FD218B11A0A00922CE2 /* radio.png */; };
+		12F84FD618B121B100922CE2 /* MapsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12F84FD518B121B100922CE2 /* MapsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +53,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		126FE06618B1C43C0017AD06 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMaps.framework; sourceTree = "<group>"; };
+		126FE06818B1C4AE0017AD06 /* GoogleMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
+		126FE06A18B1C5010017AD06 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		126FE06C18B1C5080017AD06 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		126FE06E18B1C5430017AD06 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		126FE06F18B1C5430017AD06 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		126FE07018B1C5430017AD06 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		126FE07118B1C5430017AD06 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		126FE07218B1C5430017AD06 /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		126FE07818B1C5830017AD06 /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		126FE07918B1C5830017AD06 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		126FE07A18B1C5830017AD06 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		126FE07B18B1C5830017AD06 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		126FE07C18B1C5830017AD06 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		12807A7B18B10F13007DE648 /* TrafficUpdater.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrafficUpdater.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		12807A7E18B10F13007DE648 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		12807A8018B10F13007DE648 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -55,6 +87,11 @@
 		12807AA818B10F14007DE648 /* TrafficUpdaterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TrafficUpdaterTests-Info.plist"; sourceTree = "<group>"; };
 		12807AAA18B10F14007DE648 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		12807AAC18B10F14007DE648 /* TrafficUpdaterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TrafficUpdaterTests.m; sourceTree = "<group>"; };
+		12F84FCE18B1189500922CE2 /* maps.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = maps.png; sourceTree = "<group>"; };
+		12F84FD018B1197A00922CE2 /* update.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = update.png; sourceTree = "<group>"; };
+		12F84FD218B11A0A00922CE2 /* radio.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = radio.png; sourceTree = "<group>"; };
+		12F84FD418B121B100922CE2 /* MapsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapsViewController.h; sourceTree = "<group>"; };
+		12F84FD518B121B100922CE2 /* MapsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,8 +99,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				126FE07D18B1C5830017AD06 /* libicucore.dylib in Frameworks */,
+				126FE07E18B1C5830017AD06 /* libz.dylib in Frameworks */,
+				126FE07F18B1C5830017AD06 /* OpenGLES.framework in Frameworks */,
+				126FE08018B1C5830017AD06 /* QuartzCore.framework in Frameworks */,
+				126FE08118B1C5830017AD06 /* SystemConfiguration.framework in Frameworks */,
+				126FE07318B1C5430017AD06 /* CoreLocation.framework in Frameworks */,
+				126FE07418B1C5430017AD06 /* CoreText.framework in Frameworks */,
+				126FE07518B1C5430017AD06 /* GLKit.framework in Frameworks */,
+				126FE07618B1C5430017AD06 /* ImageIO.framework in Frameworks */,
+				126FE07718B1C5430017AD06 /* libc++.dylib in Frameworks */,
+				126FE06D18B1C5080017AD06 /* CoreData.framework in Frameworks */,
+				126FE06B18B1C5010017AD06 /* AVFoundation.framework in Frameworks */,
 				12807A8118B10F13007DE648 /* CoreGraphics.framework in Frameworks */,
 				12807A8318B10F13007DE648 /* UIKit.framework in Frameworks */,
+				126FE06718B1C43C0017AD06 /* GoogleMaps.framework in Frameworks */,
 				12807A7F18B10F13007DE648 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -103,6 +153,20 @@
 		12807A7D18B10F13007DE648 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				126FE07818B1C5830017AD06 /* libicucore.dylib */,
+				126FE07918B1C5830017AD06 /* libz.dylib */,
+				126FE07A18B1C5830017AD06 /* OpenGLES.framework */,
+				126FE07B18B1C5830017AD06 /* QuartzCore.framework */,
+				126FE07C18B1C5830017AD06 /* SystemConfiguration.framework */,
+				126FE06E18B1C5430017AD06 /* CoreLocation.framework */,
+				126FE06F18B1C5430017AD06 /* CoreText.framework */,
+				126FE07018B1C5430017AD06 /* GLKit.framework */,
+				126FE07118B1C5430017AD06 /* ImageIO.framework */,
+				126FE07218B1C5430017AD06 /* libc++.dylib */,
+				126FE06C18B1C5080017AD06 /* CoreData.framework */,
+				126FE06A18B1C5010017AD06 /* AVFoundation.framework */,
+				126FE06818B1C4AE0017AD06 /* GoogleMaps.bundle */,
+				126FE06618B1C43C0017AD06 /* GoogleMaps.framework */,
 				12807A7E18B10F13007DE648 /* Foundation.framework */,
 				12807A8018B10F13007DE648 /* CoreGraphics.framework */,
 				12807A8218B10F13007DE648 /* UIKit.framework */,
@@ -114,6 +178,9 @@
 		12807A8418B10F13007DE648 /* TrafficUpdater */ = {
 			isa = PBXGroup;
 			children = (
+				12F84FCB18B1184C00922CE2 /* Images */,
+				12F84FD418B121B100922CE2 /* MapsViewController.h */,
+				12F84FD518B121B100922CE2 /* MapsViewController.m */,
 				12807A8D18B10F13007DE648 /* AppDelegate.h */,
 				12807A8E18B10F13007DE648 /* AppDelegate.m */,
 				12807A9018B10F13007DE648 /* Main_iPhone.storyboard */,
@@ -153,6 +220,16 @@
 				12807AA918B10F14007DE648 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		12F84FCB18B1184C00922CE2 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				12F84FD218B11A0A00922CE2 /* radio.png */,
+				12F84FD018B1197A00922CE2 /* update.png */,
+				12F84FCE18B1189500922CE2 /* maps.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,9 +309,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				12807A9518B10F13007DE648 /* Main_iPad.storyboard in Resources */,
+				12F84FCF18B1189500922CE2 /* maps.png in Resources */,
 				12807A9A18B10F13007DE648 /* Images.xcassets in Resources */,
 				12807A9218B10F13007DE648 /* Main_iPhone.storyboard in Resources */,
+				12F84FD118B1197A00922CE2 /* update.png in Resources */,
+				12F84FD318B11A0A00922CE2 /* radio.png in Resources */,
 				12807A8918B10F13007DE648 /* InfoPlist.strings in Resources */,
+				126FE06918B1C4AE0017AD06 /* GoogleMaps.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,6 +337,7 @@
 				12807A9818B10F13007DE648 /* ViewController.m in Sources */,
 				12807A8F18B10F13007DE648 /* AppDelegate.m in Sources */,
 				12807A8B18B10F13007DE648 /* main.m in Sources */,
+				12F84FD618B121B100922CE2 /* MapsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -392,10 +474,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/NguyenHoangVinh/Desktop/TrafficUpdater,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TrafficUpdater/TrafficUpdater-Prefix.pch";
 				INFOPLIST_FILE = "TrafficUpdater/TrafficUpdater-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -405,10 +494,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/NguyenHoangVinh/Desktop/TrafficUpdater,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TrafficUpdater/TrafficUpdater-Prefix.pch";
 				INFOPLIST_FILE = "TrafficUpdater/TrafficUpdater-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -474,6 +570,7 @@
 				12807AB218B10F14007DE648 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		12807AB318B10F14007DE648 /* Build configuration list for PBXNativeTarget "TrafficUpdaterTests" */ = {
 			isa = XCConfigurationList;
@@ -482,6 +579,7 @@
 				12807AB518B10F14007DE648 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
