@@ -47,6 +47,8 @@
     marker.map = mapView_;
     
     NSLog(@"Current identifier: %@", [[NSBundle mainBundle] bundleIdentifier]);
+    
+    //self.navigationController.navigationBar.tintColor = [UIColor colorWithRed:174 green:235 blue:225 alpha:1];
 }
 
 - (void)didReceiveMemoryWarning
@@ -58,7 +60,7 @@
     
     if (!isSearching)
     {
-        UISearchBar *searchbar = [[UISearchBar alloc]initWithFrame:CGRectMake(0, 0, 200, 35)];
+        UISearchBar *searchbar = [[UISearchBar alloc]initWithFrame:CGRectMake(0, 0, 200, 44)];
         searchbar.placeholder = @"Enter here";
         self.navigationItem.titleView = searchbar;
         self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc]initWithBarButtonSystemItem:UIBarButtonSystemItemCancel target:self action:@selector(showSearchBar:)];

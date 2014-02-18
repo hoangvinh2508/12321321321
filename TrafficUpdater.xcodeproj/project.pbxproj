@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1219DC0F18B2484A005D6F9C /* radio_screen.png in Resources */ = {isa = PBXBuildFile; fileRef = 1219DC0D18B2484A005D6F9C /* radio_screen.png */; };
+		1219DC1218B24ADE005D6F9C /* radio_start.png in Resources */ = {isa = PBXBuildFile; fileRef = 1219DC1018B24ADE005D6F9C /* radio_start.png */; };
+		1219DC1318B24ADE005D6F9C /* radio_stop.png in Resources */ = {isa = PBXBuildFile; fileRef = 1219DC1118B24ADE005D6F9C /* radio_stop.png */; };
+		1219DC1518B24BFE005D6F9C /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 1219DC1418B24BFE005D6F9C /* background.png */; };
 		126FE06718B1C43C0017AD06 /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 126FE06618B1C43C0017AD06 /* GoogleMaps.framework */; };
 		126FE06918B1C4AE0017AD06 /* GoogleMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 126FE06818B1C4AE0017AD06 /* GoogleMaps.bundle */; };
 		126FE06B18B1C5010017AD06 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 126FE06A18B1C5010017AD06 /* AVFoundation.framework */; };
@@ -36,8 +40,10 @@
 		12807AA318B10F14007DE648 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12807A8218B10F13007DE648 /* UIKit.framework */; };
 		12807AAB18B10F14007DE648 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 12807AA918B10F14007DE648 /* InfoPlist.strings */; };
 		12807AAD18B10F14007DE648 /* TrafficUpdaterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 12807AAC18B10F14007DE648 /* TrafficUpdaterTests.m */; };
+		12F2811A18B219D900E7AFED /* update.png in Resources */ = {isa = PBXBuildFile; fileRef = 12F2811918B219D900E7AFED /* update.png */; };
+		12F2811C18B21ED100E7AFED /* audio.png in Resources */ = {isa = PBXBuildFile; fileRef = 12F2811B18B21ED100E7AFED /* audio.png */; };
+		12F2811E18B21EDC00E7AFED /* camera.png in Resources */ = {isa = PBXBuildFile; fileRef = 12F2811D18B21EDC00E7AFED /* camera.png */; };
 		12F84FCF18B1189500922CE2 /* maps.png in Resources */ = {isa = PBXBuildFile; fileRef = 12F84FCE18B1189500922CE2 /* maps.png */; };
-		12F84FD118B1197A00922CE2 /* update.png in Resources */ = {isa = PBXBuildFile; fileRef = 12F84FD018B1197A00922CE2 /* update.png */; };
 		12F84FD318B11A0A00922CE2 /* radio.png in Resources */ = {isa = PBXBuildFile; fileRef = 12F84FD218B11A0A00922CE2 /* radio.png */; };
 		12F84FD618B121B100922CE2 /* MapsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12F84FD518B121B100922CE2 /* MapsViewController.m */; };
 /* End PBXBuildFile section */
@@ -53,6 +59,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1219DC0D18B2484A005D6F9C /* radio_screen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = radio_screen.png; sourceTree = "<group>"; };
+		1219DC1018B24ADE005D6F9C /* radio_start.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = radio_start.png; sourceTree = "<group>"; };
+		1219DC1118B24ADE005D6F9C /* radio_stop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = radio_stop.png; sourceTree = "<group>"; };
+		1219DC1418B24BFE005D6F9C /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
 		126FE06618B1C43C0017AD06 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMaps.framework; sourceTree = "<group>"; };
 		126FE06818B1C4AE0017AD06 /* GoogleMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
 		126FE06A18B1C5010017AD06 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
@@ -87,8 +97,10 @@
 		12807AA818B10F14007DE648 /* TrafficUpdaterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TrafficUpdaterTests-Info.plist"; sourceTree = "<group>"; };
 		12807AAA18B10F14007DE648 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		12807AAC18B10F14007DE648 /* TrafficUpdaterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TrafficUpdaterTests.m; sourceTree = "<group>"; };
+		12F2811918B219D900E7AFED /* update.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = update.png; sourceTree = "<group>"; };
+		12F2811B18B21ED100E7AFED /* audio.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = audio.png; sourceTree = "<group>"; };
+		12F2811D18B21EDC00E7AFED /* camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camera.png; sourceTree = "<group>"; };
 		12F84FCE18B1189500922CE2 /* maps.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = maps.png; sourceTree = "<group>"; };
-		12F84FD018B1197A00922CE2 /* update.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = update.png; sourceTree = "<group>"; };
 		12F84FD218B11A0A00922CE2 /* radio.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = radio.png; sourceTree = "<group>"; };
 		12F84FD418B121B100922CE2 /* MapsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapsViewController.h; sourceTree = "<group>"; };
 		12F84FD518B121B100922CE2 /* MapsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapsViewController.m; sourceTree = "<group>"; };
@@ -225,8 +237,14 @@
 		12F84FCB18B1184C00922CE2 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				1219DC1418B24BFE005D6F9C /* background.png */,
+				1219DC1018B24ADE005D6F9C /* radio_start.png */,
+				1219DC1118B24ADE005D6F9C /* radio_stop.png */,
+				1219DC0D18B2484A005D6F9C /* radio_screen.png */,
+				12F2811D18B21EDC00E7AFED /* camera.png */,
+				12F2811B18B21ED100E7AFED /* audio.png */,
+				12F2811918B219D900E7AFED /* update.png */,
 				12F84FD218B11A0A00922CE2 /* radio.png */,
-				12F84FD018B1197A00922CE2 /* update.png */,
 				12F84FCE18B1189500922CE2 /* maps.png */,
 			);
 			name = Images;
@@ -308,13 +326,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12F2811A18B219D900E7AFED /* update.png in Resources */,
 				12807A9518B10F13007DE648 /* Main_iPad.storyboard in Resources */,
 				12F84FCF18B1189500922CE2 /* maps.png in Resources */,
 				12807A9A18B10F13007DE648 /* Images.xcassets in Resources */,
+				12F2811E18B21EDC00E7AFED /* camera.png in Resources */,
+				1219DC1218B24ADE005D6F9C /* radio_start.png in Resources */,
+				12F2811C18B21ED100E7AFED /* audio.png in Resources */,
+				1219DC1318B24ADE005D6F9C /* radio_stop.png in Resources */,
 				12807A9218B10F13007DE648 /* Main_iPhone.storyboard in Resources */,
-				12F84FD118B1197A00922CE2 /* update.png in Resources */,
+				1219DC1518B24BFE005D6F9C /* background.png in Resources */,
 				12F84FD318B11A0A00922CE2 /* radio.png in Resources */,
 				12807A8918B10F13007DE648 /* InfoPlist.strings in Resources */,
+				1219DC0F18B2484A005D6F9C /* radio_screen.png in Resources */,
 				126FE06918B1C4AE0017AD06 /* GoogleMaps.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
