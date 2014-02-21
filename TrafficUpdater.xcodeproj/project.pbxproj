@@ -11,6 +11,11 @@
 		1219DC1218B24ADE005D6F9C /* radio_start.png in Resources */ = {isa = PBXBuildFile; fileRef = 1219DC1018B24ADE005D6F9C /* radio_start.png */; };
 		1219DC1318B24ADE005D6F9C /* radio_stop.png in Resources */ = {isa = PBXBuildFile; fileRef = 1219DC1118B24ADE005D6F9C /* radio_stop.png */; };
 		1219DC1518B24BFE005D6F9C /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 1219DC1418B24BFE005D6F9C /* background.png */; };
+		125E6BEF18B73E2E00E66671 /* 1Star.png in Resources */ = {isa = PBXBuildFile; fileRef = 125E6BED18B73E2E00E66671 /* 1Star.png */; };
+		125E6BF018B73E2E00E66671 /* 1Star@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 125E6BEE18B73E2E00E66671 /* 1Star@2x.png */; };
+		125E6BF318B7400900E66671 /* 1Star_Disable.png in Resources */ = {isa = PBXBuildFile; fileRef = 125E6BF118B7400900E66671 /* 1Star_Disable.png */; };
+		125E6BF418B7400900E66671 /* 1Star_Disable@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 125E6BF218B7400900E66671 /* 1Star_Disable@2x.png */; };
+		125E6BF718B7408800E66671 /* UpdateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 125E6BF618B7408800E66671 /* UpdateViewController.m */; };
 		126FE06718B1C43C0017AD06 /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 126FE06618B1C43C0017AD06 /* GoogleMaps.framework */; };
 		126FE06918B1C4AE0017AD06 /* GoogleMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 126FE06818B1C4AE0017AD06 /* GoogleMaps.bundle */; };
 		126FE06B18B1C5010017AD06 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 126FE06A18B1C5010017AD06 /* AVFoundation.framework */; };
@@ -63,6 +68,12 @@
 		1219DC1018B24ADE005D6F9C /* radio_start.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = radio_start.png; sourceTree = "<group>"; };
 		1219DC1118B24ADE005D6F9C /* radio_stop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = radio_stop.png; sourceTree = "<group>"; };
 		1219DC1418B24BFE005D6F9C /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		125E6BED18B73E2E00E66671 /* 1Star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1Star.png; sourceTree = "<group>"; };
+		125E6BEE18B73E2E00E66671 /* 1Star@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1Star@2x.png"; sourceTree = "<group>"; };
+		125E6BF118B7400900E66671 /* 1Star_Disable.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1Star_Disable.png; sourceTree = "<group>"; };
+		125E6BF218B7400900E66671 /* 1Star_Disable@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1Star_Disable@2x.png"; sourceTree = "<group>"; };
+		125E6BF518B7408800E66671 /* UpdateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UpdateViewController.h; sourceTree = "<group>"; };
+		125E6BF618B7408800E66671 /* UpdateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UpdateViewController.m; sourceTree = "<group>"; };
 		126FE06618B1C43C0017AD06 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMaps.framework; sourceTree = "<group>"; };
 		126FE06818B1C4AE0017AD06 /* GoogleMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
 		126FE06A18B1C5010017AD06 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
@@ -193,6 +204,8 @@
 				12F84FCB18B1184C00922CE2 /* Images */,
 				12F84FD418B121B100922CE2 /* MapsViewController.h */,
 				12F84FD518B121B100922CE2 /* MapsViewController.m */,
+				125E6BF518B7408800E66671 /* UpdateViewController.h */,
+				125E6BF618B7408800E66671 /* UpdateViewController.m */,
 				12807A8D18B10F13007DE648 /* AppDelegate.h */,
 				12807A8E18B10F13007DE648 /* AppDelegate.m */,
 				12807A9018B10F13007DE648 /* Main_iPhone.storyboard */,
@@ -237,6 +250,10 @@
 		12F84FCB18B1184C00922CE2 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				125E6BF118B7400900E66671 /* 1Star_Disable.png */,
+				125E6BF218B7400900E66671 /* 1Star_Disable@2x.png */,
+				125E6BED18B73E2E00E66671 /* 1Star.png */,
+				125E6BEE18B73E2E00E66671 /* 1Star@2x.png */,
 				1219DC1418B24BFE005D6F9C /* background.png */,
 				1219DC1018B24ADE005D6F9C /* radio_start.png */,
 				1219DC1118B24ADE005D6F9C /* radio_stop.png */,
@@ -328,7 +345,10 @@
 			files = (
 				12F2811A18B219D900E7AFED /* update.png in Resources */,
 				12807A9518B10F13007DE648 /* Main_iPad.storyboard in Resources */,
+				125E6BEF18B73E2E00E66671 /* 1Star.png in Resources */,
+				125E6BF318B7400900E66671 /* 1Star_Disable.png in Resources */,
 				12F84FCF18B1189500922CE2 /* maps.png in Resources */,
+				125E6BF018B73E2E00E66671 /* 1Star@2x.png in Resources */,
 				12807A9A18B10F13007DE648 /* Images.xcassets in Resources */,
 				12F2811E18B21EDC00E7AFED /* camera.png in Resources */,
 				1219DC1218B24ADE005D6F9C /* radio_start.png in Resources */,
@@ -338,6 +358,7 @@
 				1219DC1518B24BFE005D6F9C /* background.png in Resources */,
 				12F84FD318B11A0A00922CE2 /* radio.png in Resources */,
 				12807A8918B10F13007DE648 /* InfoPlist.strings in Resources */,
+				125E6BF418B7400900E66671 /* 1Star_Disable@2x.png in Resources */,
 				1219DC0F18B2484A005D6F9C /* radio_screen.png in Resources */,
 				126FE06918B1C4AE0017AD06 /* GoogleMaps.bundle in Resources */,
 			);
@@ -360,6 +381,7 @@
 			files = (
 				12807A9818B10F13007DE648 /* ViewController.m in Sources */,
 				12807A8F18B10F13007DE648 /* AppDelegate.m in Sources */,
+				125E6BF718B7408800E66671 /* UpdateViewController.m in Sources */,
 				12807A8B18B10F13007DE648 /* main.m in Sources */,
 				12F84FD618B121B100922CE2 /* MapsViewController.m in Sources */,
 			);
