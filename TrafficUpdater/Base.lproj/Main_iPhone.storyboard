@@ -2,7 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4514" systemVersion="12E55" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="jwH-TK-8rQ">
     <dependencies>
         <deployment defaultVersion="1536" identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3746"/>
     </dependencies>
     <scenes>
         <!--Maps View Controller - Bản đồ-->
@@ -574,7 +574,7 @@
                         <barButtonItem key="rightBarButtonItem" title="Gửi" id="j1m-Qh-2mG"/>
                     </navigationItem>
                     <connections>
-                        <segue destination="fig-nx-BDh" kind="push" id="fmZ-dE-3vq"/>
+                        <segue destination="fig-nx-BDh" kind="push" identifier="Dangky_KickHoat" id="fmZ-dE-3vq"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IrT-Gc-KMY" userLabel="First Responder" sceneMemberID="firstResponder"/>
