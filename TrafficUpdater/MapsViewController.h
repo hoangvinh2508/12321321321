@@ -7,8 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface MapsViewController : UIViewController{
+#import <CoreLocation/CoreLocation.h>
+#import "DataCenter.h"
+@interface MapsViewController : UIViewController <CLLocationManagerDelegate>
+{
     BOOL isSearching;
+    BOOL isOnTrafficWarningMode;
 }
+
+@property (nonatomic, strong) NSMutableArray *arrayCoordinates;
+
 @end
