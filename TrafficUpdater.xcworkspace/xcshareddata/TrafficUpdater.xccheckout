@@ -5,34 +5,34 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>BC2B2A2D-9F5B-403D-97A1-E3EFB2DB590E</string>
+	<string>968D17D3-60B9-48AF-9034-8AE2FD10B0A6</string>
 	<key>IDESourceControlProjectName</key>
 	<string>TrafficUpdater</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>EB9B6EC8-D54A-4567-B9C9-B346C267FE3A</key>
-		<string>https://github.com/hoangvinh2508/TrafficUpdater.git</string>
+		<key>D3134556-8256-44A6-9443-99D022939D31</key>
+		<string>ssh://github.com/hoangvinh2508/TrafficUpdater.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>TrafficUpdater.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>EB9B6EC8-D54A-4567-B9C9-B346C267FE3A</key>
+		<key>D3134556-8256-44A6-9443-99D022939D31</key>
 		<string>..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/hoangvinh2508/TrafficUpdater.git</string>
+	<string>ssh://github.com/hoangvinh2508/TrafficUpdater.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>EB9B6EC8-D54A-4567-B9C9-B346C267FE3A</string>
+	<string>D3134556-8256-44A6-9443-99D022939D31</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>EB9B6EC8-D54A-4567-B9C9-B346C267FE3A</string>
+			<string>D3134556-8256-44A6-9443-99D022939D31</string>
 			<key>IDESourceControlWCCName</key>
 			<string>TrafficUpdater</string>
 		</dict>
